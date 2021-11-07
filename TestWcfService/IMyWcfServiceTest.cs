@@ -23,39 +23,4 @@ namespace TestWcfService
 
         // TODO: Add your service operations here
     }
-
-    /*
-    // Use a data contract as illustrated in the sample below to add composite types to service operations.
-    [DataContract]
-    public class ClientesDTO
-    {
-        int codClienteN;
-        string nomCliente;
-
-        public ClientesDTO()
-        {
-
-        }
-
-        public ClientesDTO(ClientesBE clientesBE)
-        {
-            this.codClienteN = clientesBE.CodClienteN;
-            this.nomCliente = clientesBE.NomCliente;
-        }
-
-        [DataMember]
-        public int CodClienteN
-        {
-            get { return codClienteN; }
-            set { codClienteN = value; }
-        }
-
-        [DataMember]
-        public string NomCliente
-        {
-            get { return nomCliente; }
-            set { nomCliente = value; }
-        }
-    }
-    */
 }
