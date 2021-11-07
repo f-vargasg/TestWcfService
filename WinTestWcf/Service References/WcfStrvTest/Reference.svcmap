@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6ae96e1d-9202-427e-8b4a-93f4a4328442" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49856/MyWcfServiceTest.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MyWcfServiceTest.xsd" MetadataType="Schema" ID="ee21e6da-f871-4220-bdb8-ca9ec498169a" SourceId="1" SourceUrl="http://localhost:49856/MyWcfServiceTest.svc?xsd=xsd1" />
+    <MetadataFile FileName="MyWcfServiceTest.wsdl" MetadataType="Wsdl" ID="bf0c2466-b6d7-459c-8f46-5e3c475bfbf3" SourceId="1" SourceUrl="http://localhost:49856/MyWcfServiceTest.svc?wsdl" />
+    <MetadataFile FileName="MyWcfServiceTest.disco" MetadataType="Disco" ID="c4321d27-57bc-4d1d-8613-57712dafa1b6" SourceId="1" SourceUrl="http://localhost:49856/MyWcfServiceTest.svc?disco" />
+    <MetadataFile FileName="MyWcfServiceTest1.xsd" MetadataType="Schema" ID="15af781c-2e41-4f4c-a1f2-d5803997259b" SourceId="1" SourceUrl="http://localhost:49856/MyWcfServiceTest.svc?xsd=xsd0" />
+    <MetadataFile FileName="MyWcfServiceTest2.xsd" MetadataType="Schema" ID="c7efaf27-cd69-406f-a0d5-c97a572826e8" SourceId="1" SourceUrl="http://localhost:49856/MyWcfServiceTest.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
