@@ -19,7 +19,7 @@ namespace TestWcfService
         void Add(ClientesDTO cliente);
 
         [OperationContract]
-        List<ClientesDTO> GetList();
+        List<BaseDTO> GetList();
 
         // TODO: Add your service operations here
     }

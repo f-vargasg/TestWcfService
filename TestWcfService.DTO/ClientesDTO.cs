@@ -10,9 +10,8 @@ namespace TestWcfService.DTO
 {
 
     [DataContract]
-    public class ClientesDTO
+    public class ClientesDTO : BaseDTO
     {
-        int codClienteN;
         string nomCliente;
 
         public ClientesDTO()
@@ -20,17 +19,9 @@ namespace TestWcfService.DTO
 
         }
 
-        public ClientesDTO(ClientesBE clientesBE)
+        public ClientesDTO(ClienteBE clientesBE)
         {
-            this.codClienteN = clientesBE.CodClienteN;
             this.nomCliente = clientesBE.NomCliente;
-        }
-
-        [DataMember]
-        public int CodClienteN
-        {
-            get { return codClienteN; }
-            set { codClienteN = value; }
         }
 
         [DataMember]

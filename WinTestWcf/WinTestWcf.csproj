@@ -94,7 +94,7 @@
     <None Include="Service References\WcfStrvTest\MyWcfServiceTest2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\WcfStrvTest\WinTestWcf.WcfStrvTest.ClientesDTO.datasource">
+    <None Include="Service References\WcfStrvTest\WinTestWcf.WcfStrvTest.BaseDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>

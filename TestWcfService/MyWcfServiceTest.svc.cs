@@ -20,9 +20,9 @@ namespace TestWcfService
         public void Add(ClientesDTO cliente)
         {
             ClientesBL clienteBL = new ClientesBL();
-            ClientesBE clienteBE = new ClientesBE
+            ClienteBE clienteBE = new ClienteBE
             {
-                CodClienteN = cliente.CodClienteN,
+                CodClienteN = cliente.IdEntidad,
                 NomCliente = cliente.NomCliente
             };
 
@@ -30,15 +30,15 @@ namespace TestWcfService
 
         }
 
-        public List<ClientesDTO> GetList()
+        public List<BaseDTO> GetList()
         {
-            var res = new List<ClientesDTO>();
+            var res = new List<BaseDTO>();
             ClientesBL clienteBL = new ClientesBL();
             foreach (var item in clienteBL.GetList())
             {
                 ClientesDTO clientesDTO = new ClientesDTO
                 {
-                    CodClienteN = item.CodClienteN,
+                    IdEntidad = item.CodClienteN,
                     NomCliente = item.NomCliente
                 };
 

@@ -18,12 +18,12 @@ namespace TestWcfService.BL
             this.clienteDL = new ClientesDL();
         }
 
-        public void Add(ClientesBE clientesBE)
+        public void Add(ClienteBE clientesBE)
         {
             this.clienteDL.Add(clientesBE);
         }
 
-        public List<ClientesBE> GetList()
+        public List<ClienteBE> GetList()
         {
             return this.clienteDL.GetList();
         }

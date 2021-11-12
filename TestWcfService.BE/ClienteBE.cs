@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestWcfService.BE
 {
-    public class ClientesBE
+    public class ClienteBE
     {
+
         public int CodClienteN { get; set; }
         public string NomCliente { get; set; }
     }

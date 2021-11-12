@@ -34,10 +34,12 @@ namespace WinTestWcf
         private void tlstrTest_Click(object sender, EventArgs e)
         {
             MyWcfServiceTestClient client = new MyWcfServiceTestClient();
+            // List<ClientesDTO> lst = new List<ClientesDTO>();
+            BaseDTO[] arrDatos = client.GetList();
 
-            ClientesDTO[] lst = client.GetList();
+            
 
-            dgrData.DataSource = lst;
+            dgrData.DataSource = arrDatos;
 
         }
     }

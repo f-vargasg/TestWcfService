@@ -9,18 +9,18 @@ namespace TestWcfService.DL
 {
     public class ClientesDL
     {
-        List<ClientesBE> lstData;
+        List<ClienteBE> lstData;
 
         public ClientesDL()
         {
-            this.lstData = new List<ClientesBE>();
+            this.lstData = new List<ClienteBE>();
 
-            this.lstData.Add(new ClientesBE {
+            this.lstData.Add(new ClienteBE {
                 CodClienteN = 1,
                 NomCliente = "Cliente1"
             });
 
-            this.lstData.Add(new ClientesBE
+            this.lstData.Add(new ClienteBE
             {
                 CodClienteN = 2,
                 NomCliente = "Cliente2"
@@ -28,12 +28,12 @@ namespace TestWcfService.DL
 
         }
 
-        public void Add(ClientesBE clienteBE)
+        public void Add(ClienteBE clienteBE)
         {
             lstData.Add(clienteBE);
         }
 
-        public List<ClientesBE> GetList()
+        public List<ClienteBE> GetList()
         {
             return this.lstData;
         }
